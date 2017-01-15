@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vassilia.justbecause.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/boat"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Just Because.."
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffae1a"
+        android:layout_margin="10dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="Quicksand"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="It's Winter.."
+        android:textColor="#461072"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="50dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="Quicksand"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="And I miss our Summer!!"
+        android:textColor="#461072"
+        android:textSize="30sp"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="Quicksand"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
